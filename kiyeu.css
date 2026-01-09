@@ -80,3 +80,28 @@ body {
 .link-box a:hover {
     background: #4a6cf7;
 }
+
+
+.mxh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.mxh a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mx img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
